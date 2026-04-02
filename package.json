@@ -6,9 +6,9 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint ./src",
+    "lint": "eslint ./frontend/src",
     "test": "jest --passWithNoTests",
-    "coverage": "jest --coverage",
+    "coverage": "jest --coverage --passWithNoTests",
     "ci": "start-test :8080 test"
   },
   "author": "",
